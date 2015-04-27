@@ -124,4 +124,5 @@ document.addEventListener('keyup', function(e) {
     };
 
     player.handleInput(allowedKeys[e.keyCode]);
+	// My First Game by Joffrey Williams
 });
