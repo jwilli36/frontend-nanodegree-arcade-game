@@ -81,21 +81,7 @@ Player.prototype.render = function(){
 // This listens for key presses and sends the keys to your
 
  Player.prototype.handleInput = function (key) {
-   /* var xRun = 100;
-    var yRun = 83;
-
-    if(key === 'left' && this.x > 0) {
-        this.x -= xRun;
-    }
-    else if(key === 'up' && this.y > 0) {
-        this.y -= yRun;
-    }
-    else if(key === 'right' && this.x < 400) {
-        this.x += xRun;
-    }
-    else if (key === 'down' && this.y < 400) {
-        this.y += yRun;
-    } */
+   
 	if (key === 'left'){
 	   if (this.x > 50) {
 	        this.x -= 101;
@@ -103,7 +89,7 @@ Player.prototype.render = function(){
 	}
 	if (key === 'up'){
        if (this.y > 100) {
-           this.y -=98;
+           this.y -=83;
        } else{
           this.reset();
        }
